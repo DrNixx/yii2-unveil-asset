@@ -1,9 +1,9 @@
 <?php
 namespace onix\assets;
 
-use yii\web\AssetBundle;
+use yii\web\AssetBundle as YiiAssetBundle;
 
-class UnveilAsset extends AssetBundle
+class UnveilAsset extends YiiAssetBundle
 {
     public $sourcePath = '@bower/jquery-unveil';
 
